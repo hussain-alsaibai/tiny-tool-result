@@ -45,7 +45,7 @@ print(r.value)  # -> {"Authorization": "[REDACTED]", ...}
 - **Retry hints** — `failure(..., retryable=True, retry_after=2.0)` propagates to `tiny-retry-plus`
 - **Trace correlation** — `trace_id` / `span_id` field, auto-attach from `tiny-trace` if available
 - **Async** — every helper has `async` twin (`asuccess`, `afailure`)
-- **Zero dependencies** — pure stdlib, ~360 LOC, 51/51 tests passing
+- **Zero dependencies** — pure stdlib, ~445 LOC, 51/51 tests passing
 
 ## Quick Start
 
